@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../shared/img/favicon.ico">
+    <title>[興倫智能課堂] 運算思維概述</title>
+    <!-- CSS -->
+    <link href="../shared/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../shared/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../shared/css/main.css" rel="stylesheet">
+    <!--Carousel fading effect -->
+    <style type="text/css">
+        .carousel-fade .carousel-inner .item {
+            opacity: 0;
+            -webkit-transition-property: opacity;
+            -moz-transition-property: opacity;
+            -o-transition-property: opacity;
+            transition-property: opacity;
+        }
+
+        .carousel-fade .carousel-inner .active {
+            opacity: 1;
+        }
+
+            .carousel-fade .carousel-inner .active.left,
+            .carousel-fade .carousel-inner .active.right {
+                left: 0;
+                opacity: 0;
+                z-index: 1;
+            }
+
+        .carousel-fade .carousel-inner .next.left,
+        .carousel-fade .carousel-inner .prev.right {
+            opacity: 1;
+        }
+
+        .carousel-fade .carousel-control {
+            z-index: 2;
+        }
+
+
+        a.left.carousel-control {
+            background-image: none;
+        }
+
+        a.right.carousel-control {
+            background-image: none;
+        }
+    </style>
+  </head>
+  <body>
+    <header class="math">
+      <div class="container header">
+        <div class="icon"> <a href="../expo/en/index.html"><img src="../shared/img/logo.png"></a>
+        </div>
+        <div class="btn-nav">
+          <div class="btn-menu-style"> <span></span> </div>
+        </div>
+      </div>
+      <div class="banner lesson maths"> <img src="../shared/img/maths-bg.jpg" class="bg">
+        <div class="container">
+          <div class="row title">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+              <h3> 第一課 <i class="spliter"></i> 運算思維的四個核心能力 </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="breadcrumb-holder maths">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li><a href="../expo/en/index.html">首頁</a></li>
+            <li><a href="../expo/en/e-learning/">學習模組</a></li>
+            <li><a href="../expo/en/e-learning/mathematics.html">數學學習模組</a></li>
+            <li><a href="index.html">運算思維概述</a></li>
+            <li><a href="#">第一課 運算思維的四個核心能力</a></li>
+          </ol>
+          <div class="lang"> <a href="#" id="tc" class="on">繁</a> <a href="#"
+
+              id="sc">简</a> </div>
+        </div>
+      </div>
+    </header>
+    <div class="container content lesson">
+      <div class="title"> 第二節 <i class="spliter"></i> 問題拆解 </div>
+      <!-- Section 1 -->
+      <div class="row section">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="section title">什麼是問題拆解</div>
+          <p><span class="definition">問題拆解</span>即是把問題<span class="strong">分解</span>為更小、更易處理的部分，然後專注於解決每個小問題。我們可以將復雜的問題分解為各個小部分，直至這些小部分變得簡單而易於解決。基於這些可解決每個更小、更簡單問題的解決方案，可形成用來解決一開始時面對的大問題之解決方案。問題拆解有助於讓大問題變得不那麼嚇人！<br>
+            <br>
+            電腦科學家在創建可在電腦上實現的算法和過程時，問題拆解是一項重要技能。因為電腦需要非常具體的指令，它們需要得知完成任務所需的每一個小步驟。<br>
+          </p>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <img class="multimedia img-responsive" width="320" src="images/Decomposition.png" />
+                <div class="caption photo">問題拆解<code>(圖片來源：https://little-scientist-progect.weebly.com)</code>。
+		</div>
+         </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="section title">生活中的問題拆解例子</div>
+          <p>事實上，問題拆解是各行各業的人常用的一種重要技術，例如蛋糕設計師和警察。</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <ul class="nav nav-tabs" id="myTab">
+            <li id="tab1" class="active"><a href="#eg1" data-toggle="tab">製作蛋糕</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="eg1">
+              <p> 蛋糕設計師把製作蛋糕的整體任務「分解」為多個小任務，使每個小任務均可輕鬆完成。 </p>
+              <ol>
+                <li>烘焙蛋糕</li>
+                <ol type="a">
+                  <li>在碗中放入原料（黃油、糖、雞蛋、麵粉）</li>
+                  <li>攪拌</li>
+                  <li>倒入蛋糕模具</li>
+                  <li>放入烤箱，烤\(\,25\,\)分鐘</li>
+                  <li>取出蛋糕</li>
+                </ol>
+                <li>製作糖衣</li>
+                <li>將糖衣放上蛋糕</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <ul class="nav nav-tabs" id="myTab">
+            <li id="tab1" class="active"><a href="#eg1" data-toggle="tab">警察破案</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="eg1">
+              <p>警察在思考破案問題的時會將複雜問題「分解」成一系列的小問題。 </p>
+              <ol>
+                <li>嫌疑人犯了什麼罪？</li>
+                <li>犯罪何時發生？</li>
+                <li>罪案在那裏發生？</li>
+                <li>現埸有什麼樣的證據？</li>
+                <li>是否有任何證人？</li>
+                <li>最近是否有類似的罪行？</li>
+              </ol>
+              <p>一個複雜的問題被「分解」成好幾個小問題，再一一詳細分析。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Section 1-->
+    <div class="container next-lesson">
+      <div class="pull-left"> <a href="lesson_1a.html" disabled=""> <span class="glyphicon glyphicon-chevron-left"></span>上一節 </a> </div>
+      <div class="pull-right"> <a href="lesson_1c.html"> 下一節 <span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p>© 興倫信息有限公司</p>
+      </div>
+    </footer>
+    <!-- General Page JS -->
+    <script src="../shared/js/jquery-2.x.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/hil_main.js"></script>
+    <!-- MathJax equation numbering -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } }
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content1_que").hide();
+            $("#content1_quebtn").click(function () {
+                $("#content1_que").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content2_que").hide();
+            $("#content2_quebtn").click(function () {
+                $("#content2_que").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content2a_que").hide();
+            $("#content2a_quebtn").click(function () {
+                $("#content2a_que").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content2b_que").hide();
+            $("#content2b_quebtn").click(function () {
+                $("#content2b_que").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content3_que").hide();
+            $("#content3_quebtn").click(function () {
+                $("#content3_que").toggle();
+            });
+        });
+    </script>
+  </body>
+</html>

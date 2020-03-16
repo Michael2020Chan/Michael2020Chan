@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../shared/img/favicon.ico">
+    <title>[興倫智能課堂] 運算思維概述</title>
+    <!-- CSS -->
+    <link href="../shared/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../shared/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../shared/css/main.css" rel="stylesheet">
+    <!--Carousel fading effect -->
+    <style type="text/css">
+        .carousel-fade .carousel-inner .item {
+            opacity: 0;
+            -webkit-transition-property: opacity;
+            -moz-transition-property: opacity;
+            -o-transition-property: opacity;
+            transition-property: opacity;
+        }
+
+        .carousel-fade .carousel-inner .active {
+            opacity: 1;
+        }
+
+            .carousel-fade .carousel-inner .active.left,
+            .carousel-fade .carousel-inner .active.right {
+                left: 0;
+                opacity: 0;
+                z-index: 1;
+            }
+
+        .carousel-fade .carousel-inner .next.left,
+        .carousel-fade .carousel-inner .prev.right {
+            opacity: 1;
+        }
+
+        .carousel-fade .carousel-control {
+            z-index: 2;
+        }
+
+
+        a.left.carousel-control {
+            background-image: none;
+        }
+
+        a.right.carousel-control {
+            background-image: none;
+        }
+    </style>
+  </head>
+  <body>
+    <header class="math">
+      <div class="container header">
+        <div class="icon"> <a href="../expo/en/index.html"><img src="../shared/img/logo.png"></a>
+        </div>
+        <div class="btn-nav">
+          <div class="btn-menu-style"> <span></span> </div>
+        </div>
+      </div>
+      <div class="banner lesson maths"> <img src="../shared/img/maths-bg.jpg" class="bg">
+        <div class="container">
+          <div class="row title">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+              <h3> 第一課 <i class="spliter"></i> 運算思維的四個核心能力 </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="breadcrumb-holder maths">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li><a href="../expo/en/index.html">首頁</a></li>
+            <li><a href="../expo/en/e-learning/">學習模組</a></li>
+            <li><a href="../expo/en/e-learning/mathematics.html">數學學習模組</a></li>
+            <li><a href="index.html">運算思維概述</a></li>
+            <li><a href="#">第一課 運算思維的四個核心能力</a></li>
+          </ol>
+          <div class="lang"> <a href="#" id="tc" class="on">繁</a> <a href="#"
+              id="sc">简</a> </div>
+        </div>
+      </div>
+    </header>
+    <div class="container content lesson">
+      <div class="title"> 第四節 <i class="spliter"></i> 模式識別 </div>
+      <!-- Section 1 -->
+      <div class="row section">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="section title">什麼是模式識別 </div>
+          <br>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <ul class="nav nav-tabs" id="myTab">
+              <li id="tab1" class="active"><a href="#eg1" data-toggle="tab">
+                  運算思維概念</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane fade in active" id="eg1">
+                <p><span class="definition">模式識別</span>也稱為「模式一般化和模式識別」。模式識別採用一個問題的已知解決方案（或解決方案的一部分）並對其進行一般化，以便將其應用於其他類似的問題和任務中。 </p>
+                <br>
+                <p> 由於電腦科學中的解決方案是演算法，這意味著我們採用該演算法並將它變得足夠<span class="strong">通用</span>，以便將其應用於一系列問題。一般化的演算法可以針對整組類似問題<span class="strong">反複使用</span>，這意味著我們可以快速有效地想出解決方案。 </p>
+                <br>
+                <p><span class="strong">發現模式</span>是模式識別過程的重要組成部分。思考難題時，我們可能會認識到它們之間的相似之處，並知道可用類似方式將其解決。 這稱為<span class="strong">模式匹配</span>，是我們在日常生活中自然做出的事情。</p>
+                <br>
+                <p>模式識別過程涉及<a href="lesson_1b.html">抽象化</a>，畢竟為了讓結果變得更加通用，必須刪除與特定問題或情況相關但對於演算法的工作原理並不重要的非必要細節。 </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <ul class="nav nav-tabs" id="myTab">
+              <li id="tab1" class="active"><a href="#eg1" data-toggle="tab">生活實例</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane fade in active" id="eg1">
+                <p>想像一下我們已經畫好了一隻貓，日後想要畫一系列不同品種的貓。 </p>
+                <br>
+                <p>我們觀察到所有的貓都共享一些特徵，譬如說它們都有眼睛，尾巴，毛髮，喜歡吃魚和喜歡喵喵叫。</p>
+                <br>
+                <p> 因為知道了所有的貓都有這個些特徵，當我們想要畫貓的時候便可將這些共有的屬性加入其中讓畫貓這項工作變得更簡單。 </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <img class="multimedia img-responsive" width="320" src="images/Pattern-Recognition.png" />
+                <div class="caption photo">模式識別<code>(圖片來源：https://little-scientist-progect.weebly.com)</code>。
+		</div>
+         </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="section title">為什麼我們需要找模式</div>
+          <br>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <ul class="nav nav-tabs" id="myTab">
+              <li id="tab1" class="active"><a href="#eg1" data-toggle="tab">
+                  運算思維概念</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane fade in active" id="eg1">
+                <p>找到模式是非常重要的，模式讓問題簡化。當問題共享特徵時，它們能夠被更簡單的解決。因為當共通模式存在時，我們可以用相同的問題解決方案去解決此類問題。</p>
+                <br>
+                <p>當我們發現越來愈多的模式時，創建演算法的過程會加快，解決問題會變得更加容易以及迅速。 </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <ul class="nav nav-tabs" id="myTab">
+              <li id="tab1" class="active"><a href="#eg1" data-toggle="tab">生活實例</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane fade in active" id="eg1">
+                <p>當我們想要畫一系列貓的時候，找到基本畫貓的模式，像是有眼睛，尾巴跟毛髮，能讓這項任務變得更簡單及快速地完成。</p>
+                <p> <br>
+                  我們知道所有貓都遵循此一模式，所以我們不用每次畫貓的時候都停下來找貓的共同特徵。依據我們得出來的模式，我們可以很快地畫出很多隻貓。</p>
+              </div>
+            </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img class="multimedia img-responsive" width="320" src="images/Pattern-Recognition-Cat.jpg" />
+                <div class="caption photo">畫一系列貓。
+		</div>
+         </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container next-lesson">
+      <div class="pull-left"><a href="lesson_1c.html" disabled="">&nbsp;上一節 </a>
+      </div>
+      <div class="pull-right"> <a href="lesson_1e.html"> 下一節 <span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p>© 興倫信息有限公司</p>
+      </div>
+    </footer>
+    <!-- General Page JS -->
+    <script src="../shared/js/jquery-2.x.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/hil_main.js"></script>
+    <!-- MathJax equation numbering -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } }
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content1_que").hide();
+            $("#content1_quebtn").click(function () {
+                $("#content1_que").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content2_que").hide();
+            $("#content2_quebtn").click(function () {
+                $("#content2_que").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content2a_que").hide();
+            $("#content2a_quebtn").click(function () {
+                $("#content2a_que").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content2b_que").hide();
+            $("#content2b_quebtn").click(function () {
+                $("#content2b_que").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content3_que").hide();
+            $("#content3_quebtn").click(function () {
+                $("#content3_que").toggle();
+            });
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../shared/img/favicon.ico">
+    <title>[興倫智能課堂] 運算思維概述</title>
+    <!-- CSS -->
+    <link href="../shared/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../shared/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../shared/css/main.css" rel="stylesheet">
+    <!--Carousel fading effect -->
+    <style type="text/css">
+        .carousel-fade .carousel-inner .item {
+            opacity: 0;
+            -webkit-transition-property: opacity;
+            -moz-transition-property: opacity;
+            -o-transition-property: opacity;
+            transition-property: opacity;
+        }
+
+        .carousel-fade .carousel-inner .active {
+            opacity: 1;
+        }
+
+            .carousel-fade .carousel-inner .active.left,
+            .carousel-fade .carousel-inner .active.right {
+                left: 0;
+                opacity: 0;
+                z-index: 1;
+            }
+
+        .carousel-fade .carousel-inner .next.left,
+        .carousel-fade .carousel-inner .prev.right {
+            opacity: 1;
+        }
+
+        .carousel-fade .carousel-control {
+            z-index: 2;
+        }
+
+
+        a.left.carousel-control {
+            background-image: none;
+        }
+
+        a.right.carousel-control {
+            background-image: none;
+        }
+    </style>
+  </head>
+  <body>
+    <header class="math">
+      <div class="container header">
+        <div class="icon"> <a href="../expo/en/index.html"><img src="../shared/img/logo.png"></a>
+        </div>
+        <div class="btn-nav">
+          <div class="btn-menu-style"> <span></span> </div>
+        </div>
+      </div>
+      <div class="banner lesson maths"> <img src="../shared/img/maths-bg.jpg" class="bg">
+        <div class="container">
+          <div class="row title">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+              <h3> 第一課 <i class="spliter"></i> 運算思維的四個核心能力 </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="breadcrumb-holder maths">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li><a href="../expo/en/index.html">首頁</a></li>
+            <li><a href="../expo/en/e-learning/">學習模組</a></li>
+            <li><a href="../expo/en/e-learning/mathematics.html">數學學習模組</a></li>
+            <li><a href="index.html">運算思維概述</a></li>
+            <li><a href="#">第一課 運算思維的四個核心能力</a></li>
+          </ol>
+          <div class="lang"> <a href="#" id="tc" class="on">繁</a> <a href="#"
+              id="sc">简</a> </div>
+        </div>
+      </div>
+    </header>
+    <div class="container content lesson">
+      <div class="title"> 第五節 <i class="spliter"></i> 演算法設計 </div>
+      <!-- Section 1 -->
+      <div class="row section">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="section title">什麼是演算法設計 </div>
+            <p> 問題得到表述之後，接下來的關鍵是找到問題的<span class="strong">解決方法</span>，即是設計<span class="definition">演算法</span>。運算思維是創建演算法的過程。當要創建演算法來解決問題時，我們稱之為<span class="definition">演算法解決方案</span>。</p>
+            <br>
+            <p>演算法是運算思維和電腦科學的核心。在電腦科學中，問題的解決方案不僅僅只是一個答案，而是演算法本身。電腦無法自己思考，所以我們需要給它算法，讓其完成目標。 </p>
+         </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <img class="multimedia img-responsive" width="320" src="images/Algorithm-Design.png" />
+                <div class="caption photo">設計解法<code>(圖片來源：https://little-scientist-progect.weebly.com)</code>。
+		</div>
+         </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <p> 演算法是解決問題或完成任務的<span class="strong">分步過程</span>。若正確遵循演算法的步驟，即使輸入不同， 也會得到正確的解決方案。例如，</p>
+            <ul>
+              <li>可以使用演算法來找到地圖上兩個位置間的最短路徑；<br>
+              </li>
+              <li>相同的演算法可用於任何一對起點和終點。因此，解決方案取決於演算法中的輸入。 </li>
+            </ul>
+            <p>若知道解決問題的算法，那麼即可隨時輕鬆地解決問題，而無需再進行思考！僅需按照步驟，進行操作即可。 </p>
+         </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="section title">演算法的應用 </div>
+            <p> 演算法設計是運算思維大顯身手的領域，電腦科學家採用多種思維方式和方法來設計有效的演算法。例如，</p>
+            <ul>
+              <li>利用分治法的思想找到了高效的排序算法；<br>
+              </li>
+              <li>利用遞歸思想輕鬆地解決了河內塔（Tower of Hanoi）問題；<br>
+              </li>
+              <li>利用動態規劃方法構造方法樹；<br>
+              </li>
+              <li>利用貪心算法尋求復雜路網中的最短路徑。</li>
+            </ul>
+            <p>各個領域中的成功應用，都有賴於高效演算法的發現。而為了找到高效演算法，又依賴於各種演算法提供之計量方法的自適應運用。</p>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <img class="multimedia img-responsive" width="320" src="images/Hanoi-Tower.gif" />
+                <div class="caption animate">河內塔問題<code>(圖片來源：http://www.tastsong.top/article/Recursion-And-Dynamic-Programming)</code>。
+		</div>
+         </div>
+      </div>
+      <!-- end Section 1--> </div>
+    <div class="container next-lesson">
+      <div class="pull-left"> <a href="lesson_1d.html" disabled=""> <span class="glyphicon glyphicon-chevron-left"></span>上一節 </a> </div>
+      <div class="pull-right"> <a href="index.html"> 返回 <span class="glyphicon glyphicon-share-alt icon-mirror"></span></a>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p>© 興倫信息有限公司</p>
+      </div>
+    </footer>
+    <!-- General Page JS -->
+    <script src="../shared/js/jquery-2.x.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/hil_main.js"></script>
+    <!-- MathJax equation numbering -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } }
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content1_que").hide();
+            $("#content1_quebtn").click(function () {
+                $("#content1_que").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content2_que").hide();
+            $("#content2_quebtn").click(function () {
+                $("#content2_que").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content2a_que").hide();
+            $("#content2a_quebtn").click(function () {
+                $("#content2a_que").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content2b_que").hide();
+            $("#content2b_quebtn").click(function () {
+                $("#content2b_que").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            //init
+            $("#content3_que").hide();
+            $("#content3_quebtn").click(function () {
+                $("#content3_que").toggle();
+            });
+        });
+    </script>
+  </body>
+</html>
